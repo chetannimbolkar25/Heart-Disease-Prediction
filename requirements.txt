@@ -4,4 +4,4 @@ pandas==1.5.0
 matplotlib==3.7.0
 seaborn==0.12.0
 scikit-learn==1.2.0
-pickle==0.0.11  # Use this if you need compatibility with older Python versions
+pickle-mixin  # Use this if you need compatibility with older Python versions
