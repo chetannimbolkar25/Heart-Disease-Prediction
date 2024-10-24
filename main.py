@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load model and scaler
-model = pickle.load(open(r'rf_classifier.pkl', 'rb'))
-scaler = pickle.load(open(r'scaler.pkl', 'rb'))
+model = pickle.load(open(r'rf_classifier.pkl'))
+scaler = pickle.load(open(r'scaler.pkl'))
 
 # Prediction function
 def predict_heart_disease(model, scaler, inputs):
